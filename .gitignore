@@ -51,3 +51,7 @@ Bundles/
 # Odin Inspector 插件
 Assets/Plugins/Sirenix
 Assets/Plugins/Sirenix.meta
+
+# Navigation 数据
+Assets/Scenes/*_Navigation/
+Assets/Scenes/*_Navigation.meta
