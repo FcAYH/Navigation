@@ -7,10 +7,7 @@ namespace Navigation.Utilities
         {
             get
             {
-                if (_instance == null)
-                {
-                    _instance = new T();
-                }
+                _instance ??= new T();
                 return _instance;
             }
         }

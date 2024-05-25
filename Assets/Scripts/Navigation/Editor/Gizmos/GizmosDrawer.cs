@@ -123,6 +123,11 @@ namespace Navigation.Display
             _gameObjectToShowGizmos = null;
         }
 
+        public static void DrawGizmos()
+        {
+            Instance.OnDrawGizmos();
+        }
+
         public void OnDrawGizmos()
         {
             if (!Enabled) return;
@@ -639,15 +644,6 @@ namespace Navigation.Display
             PolyMeshField,
             TriangleMesh,
             NavMesh
-        }
-    }
-
-    internal class GameObjectToShowGizmos : MonoBehaviour
-    {
-        public void OnDrawGizmos()
-        {
-            GizmosDrawer.Instance.OnDrawGizmos();
-            PathFinder.Instance.OnDrawGizmos();
         }
     }
 }

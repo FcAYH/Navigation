@@ -439,6 +439,11 @@ namespace Navigation.Finder.Editor
             Path.Reverse();
         }
 
+        public static void DrawGizmos()
+        {
+            Instance.OnDrawGizmos();
+        }
+
         // 依赖 GizmosDrawer
         public void OnDrawGizmos()
         {
