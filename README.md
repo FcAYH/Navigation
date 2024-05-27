@@ -38,3 +38,10 @@
 在后续我会抽空尽量去将这个项目完善。
 
 > 希望该项目可以帮到正在学习导航网格生成的你，如果有任何问题，欢迎提 issue，我会尽快回复。
+
+## 参考资料
+
+本项目在开发过程中主要学习了以下两个仓库：
+
+1. [recastNavigation](https://github.com/recastnavigation/recastnavigation)
+2. [Study-Navigation-Mesh-Generation](https://github.com/Seed-XL/Study-Navigation-Mesh-Generation)
