@@ -44,6 +44,8 @@ namespace Navigation.Display
                         _gameObjectToShowGizmos = component;
                     }
 
+                    _gameObjectToShowGizmos.Initialize();
+
                     _selectedAgentIndex = 0;
                     _selectedTileIndex = 0;
                     _displayData = null;
